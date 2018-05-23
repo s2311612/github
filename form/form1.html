@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>表单select</title>
+</head>
+<body>
+<h1 align="center">注册信息</h1>
+<hr color="#336699"/>
+<form>
+ <table width="600px" bgcolor"#f2f2f2" align="center">
+    <tr>
+             <td align="right">姓名：</td>
+             <td align="left"><input type="text" name="username" size="25" maxlength="6" placeholder="请输入姓名"/></td>
+    </tr>
+    <tr>
+            <td align="right">邮箱：</td>
+            <td align="left"><input type="text" name="email" value="@163.com"/></td>
+    </tr>
+    <tr>
+             <td align="right">密码：</td>
+             <td align="left"><input type="password" name="username" size="25" maxlength="6" placeholder="请输入密码"/></td>
+    </tr>
+    <tr>
+             <td align="right">确认密码：</td>
+             <td align="left"><input type="password" name="username" size="25" maxlength="6" placeholder="请再次确认"/></td>
+    </tr>
+    <tr>
+             <td align="right">上传照片：</td>
+             <td align="left"><input type="file" name"file"/></td>
+    </tr>
+    <tr>
+             <td align="right">性别：</td>
+             <td align="left">男<input type="radio" name="sex" value="男" />
+                 女<input type="radio" name="sex" value="女"/>
+                 保密<input type="radio" name="sex" value="保密" checked/>
+            </td>
+    </tr>
+    <tr>
+             <td align="right">爱好：</td>
+             <td align="left">
+                 唱歌<input type="checkbox" name="dx1" value="唱歌"/>
+                 跳舞<input type="checkbox" name="dx1" value="跳舞"/>
+                 看书<input type="checkbox" name="dx1" value="看书"/>
+             </td>
+    </tr>
+    <tr>
+            <td align="right">城市：</td>
+            <td align="left">
+            <select>
+                <option value="XZ">--请选择--</option>
+                <option value="BJ" selected>北京</option>
+                <option value="TJ">天津</option>
+                <option value="HN">湖南</option>
+                <option value="XM">厦门</option>
+                <option value="SH">上海</option>
+                <option value="SC">四川</option>
+            </select>
+            <select name="city" size="4" multiple>
+                <option value="BJ">北京</option>
+                <option value="TJ">天津</option>
+                <option value="HN">湖南</option>
+                <option value="XM">厦门</option>
+                <option value="SH">上海</option>
+                <option value="SC">四川</option>
+            </select>
+
+            <select name="city">
+                <optgroup label="华北">
+                    <option>--请选择--</option>
+                    <option value="BJ" selected>北京</option>
+                    <option value="TJ">天津</option>
+                    <option value="HN">湖南</option>
+                </optgroup>
+                <optgroup label="华中">
+                    <option value="XM">厦门</option>
+                    <option value="SH">上海</option>
+                    <option value="SC">四川</option>
+                </optgroup>
+            </select>
+
+            </td>
+    </tr>
+    <tr>
+             <td align="right">简介：</td>
+            <td align="left"><textarea name="jj" placeholder=输入信息 rows="6" cols="50"></textarea></td>
+    </tr>
+     <tr>
+            <td colspan="2" align="center">
+                 <input type="button" value="click" name="button"/>
+                 <input type="submit" value=“submit” name="submit"/>
+                 <input type="reset" value="reset" name="reset"/>
+             </td>
+    </tr>
+
+ </table>
+
+</form>
+</body>
+</html>
