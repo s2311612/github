@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font: 12px Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+
+header {
+  background-image: url(https://i0.hdslb.com/bfs/archive/30d45ce269948eae8ed650e5ce03a2ca463a5d77.png);
+  width: 100%;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+header .banner-text {
+  width: 220px;
+  height: 105px;
+  position: absolute;
+  top: 55px;
+  left: 175px;
+}
+
+header .top {
+  width: 100%;
+  height: 42px;
+  background: hsla(0,0%,100%,.4);
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+header .top .fix-width {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header .top .fix-width ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+header .top .fix-width ul.f-left {
+  float: left;
+}
+
+header .top .fix-width ul.f-right {
+  float: right;
+}
+
+header .top .fix-width ul li {
+  float: left;
+  padding: 10px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+header .top .fix-width ul li:hover {
+  background-color: hsla(0,0%,100%,.3);
+}
+
+header .top .fix-width ul li .icon-home {
+  width: 17px;
+  height: 14px;
+  display: inline-block;
+  background-image: url(http://static.hdslb.com/images/base/icons.png);
+  background-repeat: no-repeat;
+  background-position: -919px -88px;
+  vertical-align: text-bottom;
+  padding-right: 4px;
+  padding-bottom: 1px;
+}
+
+header .search {
+  width: 100%;
+  height: 32px;
+  margin-top: 70px;
+  overflow: hidden;
+}
+
+header .search .ft {
+  float: right;
+  margin-right: 150px;
+}
+
+header .search .ft .rate {
+  border-radius: 4px;
+  color: #f25d8e;
+  margin-right: 2px;
+  float: left;
+  line-height: 32px;
+  padding-right: 6px;
+  padding-left: 4px;
+  background: rgba(255, 255, 255, .8);
+}
+
+header .search .ft .rate .rate-icon {
+  width: 20px;
+  height: 24px;
+  display: inline-block;
+  background-image: url(http://static.hdslb.com/images/base/icons.png);
+  background-position: -659px -655px;
+  background-repeat: no-repeat;
+  padding-right: 6px;
+  vertical-align: top;
+}
+
+
+header .search .ft .ipt {
+  border-radius: 4px;
+  float: left;
+  overflow: hidden;
+  background: rgba(255, 255, 255, .8);
+}
+
+header .search .ft .ipt input {
+  outline: none;
+  width: 224px;
+  height: 32px;
+  text-indent: 20px;
+  border: none;
+  float: left;
+  background: rgba(255, 255, 255, 0);
+}
+
+header .search .ft .ipt .search-icon {
+  width: 48px;
+  height: 28px;
+  display: inline-block;
+  background-image: url(http://static.hdslb.com/images/base/icons.png) ;
+  background-position: -653px -720px;
+  background-repeat: no-repeat;
+}
+
+
+
+

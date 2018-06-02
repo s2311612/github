@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:100%;
+    height:100%;
+}
+
+header .banner{
+    width: 100%;
+    height: 720px;
+    background: url(https://pan.baidu.com/static/images/16new/bg4.jpg) no-repeat center;
+    display: block;
+    background-size: cover;
+}
+
+header .banner .nav{
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    overflow: hidden;
+}
+
+header .banner .nav .nav-log{
+    width: 181px;
+    height: 51px;
+    display: inline;
+    background: url(https://pan.baidu.com/static/images/16new/logo.png) no-repeat 0;
+    float: left;
+    margin: 10px 0 0 25px;
+    position: relative;
+}
+
+header .banner .nav .nav-right{
+    width: 711px;
+    height: 60px;
+    float: right;
+    list-style: none;
+    position: relative;
+    color:#fff;
+    font-size: 14px;   
+}
+
+header .banner .nav .nav-right li{
+    float: left;
+    margin: 30px 20px 0 0;
+    vertical-align: bottom;
+}
+
+header .banner .nav .nav-right .li-1{
+    color:#f00;
+}
+
+header .banner .nav .nav-right .li-7{
+    background: #e35a53;
+    border-radius: 20px;
+    padding: 4px 10px;
+}
+
+header .banner .banner-center{
+    width:1102px;
+    height: 648px;
+    margin: 72px 340px 0;
+    position: absolute;
+    clear: both;
+}
+
+header .banner .banner-center .type{
+    width: 464px;
+    height:170px;
+    position: absolute;
+    bottom:80px;
+    font-size: 44px;
+    color:#fff;
+}
+
+header .banner .banner-center .quote{
+    position: relative;
+    padding: 10px 100px;
+}
+
+header .banner .banner-center p .left-quote{
+    height: 32px;
+    width:46px;
+    display:block;
+    background: url(https://pan.baidu.com/static/images/16new/leftquote.png) no-repeat;
+    position: absolute;
+    left:40px;
+    right:80px;
+}
+
+header .banner .banner-center p .right-quote{
+    height: 32px;
+    width:46px;
+    display:block;
+    background: url(https://pan.baidu.com/static/images/16new/rightquote.png) no-repeat;
+    position: absolute;
+    right:46px;
+    top:20px;
+}
+
+header .banner .banner-center .login{
+    width:352px;
+    height: 648px;
+    vertical-align: middle;
+    display: block;
+    float: right;
+    position: relative;
+}
+
+header .banner .banner-center .login .login-menu{
+    width:352px;
+    height:auto;
+    border-radius: 3px;
+    background: #fff;
+    position: relative;
+    margin-top: 95px;
+    box-shadow: rgba(0,0,0,0.3) 0 0 50px;
+    display: block;
+    font-size: 14px;
+    position: absolute;
+}
+
+header .banner .banner-center .login .login-menu .login-head{
+    height: 74px;
+    width: 100%;
+    line-height: 32px;
+    position: relative;
+    list-style: none;
+    }
+
+header .banner .banner-center .login .login-menu .login-head .login-pass{
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0 12px 0;
+    color:#333;
+    font-weight: 100;
+    font-family: Microsoft YaHei,SimHei,Tahoma!important;
+}
+
+header .banner .banner-center .login .login-menu .login-head .input{
+    position: relative;
+    height:86px;
+    width: 100%;
+    text-align: center;
+}
+
+header .banner .banner-center .login .login-menu .login-head .input .input-top{
+height:42px;
+width: 350px;
+border-bottom: none;
+
+}
+header .banner .banner-center .login .login-menu .login-head .input .input-top .input-text{
+    padding: 2px;
+    border: none;
+    font-size: 12px;
+}
+header .banner .banner-center .login .login-menu .login-head .input .input-top .input-text input {
+    text-indent: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border:1px solid #e7e7e7;
+    outline:none;
+}
+
+header .banner .banner-center .login .login-menu .login-head .input .input-bottom{
+    height:42px;
+    width: 350px;
+ }
+
+ header .banner .banner-center .login .login-menu .login-head .input .input-bottom input{
+    text-indent: 10px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border:1px solid #e7e7e7;
+    outline:none;
+ }
+
+ header .banner .banner-center .login .login-menu .login-head .checkbox{
+     /* width:90px; */
+     height:37px;
+     font-size: 12px;   
+     padding:10px;
+ }
+
+ header .banner .banner-center .login .login-menu .login-head .checkbox p{
+     height:40px;
+     /* width:150px; */
+     text-align: left;
+     padding-left: 8px;
+
+ }
+
+ header .banner .banner-center .login .login-menu .login-head .buttom input{
+    background: transparent;
+    border:none;
+    line-height: 40px;
+    font-size: 16px;
+    color:#fff;
+    font-weight: 100;
+ }
+
+ header .banner .banner-center .login .login-menu .login-head .buttom{
+     width:312px;
+     height:40px;
+     background: #3582f8;
+     border-radius: 4px;
+     margin: 0 auto;
+ }
+ header .banner .banner-center .login .login-menu .login-head .buttom:hover {
+     background-color: red;
+     cursor: pointer;
+ }
+ .dd::after{
+    content: '下次自动登录';
+    width: 175px;
+    position: absolute;
+    left: 10%;
+    margin-top: -3px;
+    color: #4a4a4a;
+    font-size: 12px;
+ }
+
+ header .banner .banner-center .login .login-menu .login-head .login-font{
+     width:312px;
+     height:40px;
+     margin:20px auto;
+     overflow: hidden;
+ }
+
+ header .banner .banner-center .login .login-menu .login-head .login-font .font-left{
+     color:#666;
+     font-size: 14px;
+     margin:0;
+     position: relative;
+     float: left;
+ }
+
+ header .banner .banner-center .login .login-menu .login-head .login-font .font-right{
+float: right;
+color:#3582f8;
+font-size: 14px;
+ }
+
+ header .banner .banner-center .login .login-menu .login-head .login-bottom{
+     width:100%;
+     height:55px;
+     margin: 0 auto;
+     background-color: #f3f8ff;
+     padding: 10px;
+     box-sizing: border-box;
+    clear: both;
+    position: relative;
+ }
+
+ header .banner .banner-center .login .login-menu .login-head .login-bottom .bottom-left{
+    display: block;
+    float: left;
+    color:#3582f8;
+    margin-left: 5px;
+}
+
+header .banner .banner-center .login .login-menu .login-head .login-bottom .sina-log{
+    width: 25px;
+    height: 22px;
+    background: url(https://pan.baidu.com/static/images/16new/logo_sinaweibo.png) no-repeat;
+    display: block;
+    margin: 5px 120px;
+}
+
+header .banner .banner-center .login .login-menu .login-head .login-bottom .qq-log{
+    width: 25px;
+    height: 22px;
+    background: url(https://pan.baidu.com/static/images/16new/logo_qq.png) no-repeat;
+    margin-top:-27px;
+    margin-left: 177px;
+    position: absolute;
+}
+
+header .banner .banner-center .login .login-menu .login-head .login-bottom .new{
+    width:80px;
+    float: right;
+    color:#3582f8;
+    margin-left: 5px;
+    border: 1px solid #3582f8;
+    margin-top: -28px;
+    margin-right:10px;
+    border-radius: 4px;
+    line-height: 26px;
+}
+
+footer .nav-foot{
+    margin: 0 auto;
+    clear: both;
+    width: 750px;
+    height:110px;
+    list-style: none;
+    margin-top:30px;
+}
+
+footer .nav-foot li{
+    float: left;
+    width: 150px;
+    display: block;
+    margin: 0 30px;
+}
+
+footer .nav-foot .windows{
+    height: 70px;
+    width: 90px;
+    background: url(https://pan.baidu.com/static/images/16new/login.png) no-repeat;
+    background-position: -500px -70px;
+}
+
+footer .nav-foot .android{
+    height: 70px;
+    width: 90px;
+    background: url(https://pan.baidu.com/static/images/16new/login.png) no-repeat;
+    background-position: -320px -0px;
+}
+
+footer .nav-foot .iphone{
+    height: 70px;
+    width: 90px;
+    background: url(https://pan.baidu.com/static/images/16new/login.png) no-repeat;
+    background-position: -270px -160px;
+}
+
+footer .nav-foot .ipad{
+    height: 70px;
+    width: 90px;
+    background: url(https://pan.baidu.com/static/images/16new/login.png) no-repeat;
+    background-position: -500px -0px;;
+}
+
+footer .nav-foot .mac{
+    height: 70px;
+    width: 90px;
+    background: url(https://pan.baidu.com/static/images/16new/login.png) no-repeat;
+    background-position: -180px -160px
+}
+
+footer .footer-font{
+    text-align: center;
+    font-size:12px;
+    color:#b6bac3;
+}
+.footer-font a {
+    text-decoration: none;
+    font-size:12px;
+    color:#b6bac3;
+}
